@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="text-scale" content="scale" />
+		%sveltekit.head%
+	<style>
+		body {
+			background-color: #111;
+			padding: 0;
+			margin: 0;
+		}
+		:root {
+			--inProgress-background: #111;
+			--inProgress-text: #aaa;
+			--todo-background: #111;
+			--todo-text: #aaa;
+			--owed-background: #111;
+			--owed-text: #aaa;
+			--trades-background: #111;
+			--trades-text: #aaa;
+
+			--commission-background: #333;
+			--details-updates-text: #aaa;
+			--clientName-background: #222;
+			--clientName-text: #aaa;
+			--detailsTitle-background: #222;
+			--detailsTitle-text: #aaa;
+			--updatesTitle-background: #222;
+			--updatesTitle-text: #aaa;
+			--details-updates-text: #aaa;
+		}
+	</style>
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
