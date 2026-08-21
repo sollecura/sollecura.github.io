@@ -56,6 +56,22 @@ import Commission from "$lib/Commission.svelte";
 	div div {
 		grid-template-columns: 1fr;
 	}
+	#inProgressTitle {
+		background-color: var(--inProgress-background);
+		color: var(--inProgress-text);
+	}
+	#todoTitle {
+		background-color: var(--todo-background);
+		color: var(--todo-text);
+	}
+	#owedTitle {
+		background-color: var(--owed-background);
+		color: var(--owed-text);
+	}
+	#tradesTitle {
+		background-color: var(--trades-background);
+		color: var(--trades-text);
+	}
 }
 </style>
 

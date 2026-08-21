@@ -51,6 +51,7 @@ let { client, details, updates = [] }: {
 		color: var(--details-updates-text);
 	}
 }
+
 @media only screen and (max-width: 1199px) {
 	.commission {
 		background-color: var(--commission-background);
@@ -64,13 +65,31 @@ let { client, details, updates = [] }: {
 		text-align: center;
 		background-color: var(--details-updates-background);
 		line-height: 2;
+		font-size: 14pt;
+		font-weight: normal;
+	}
+	.commission .updatesTitle {
+		background-color: var(--updatesTitle-background);
+		color: var(--updatesTitle-text);
+	}
+	.commission .detailsTitle {
+		background-color: var(--detailsTitle-background);
+		color: var(--detailsTitle-text);
 	}
 	.commission .clientName {
 		background-color: var(--clientName-background);
+		color: var(--clientName-text);
+		text-align: center;
 		grid-column: 1 / 3;
 		padding: 0;
 		margin: 0;
 		line-height: 2;
+	}
+	.details {
+		color: var(--details-updates-text);
+	}
+	.updates {
+		color: var(--details-updates-text);
 	}
 }
 </style>
